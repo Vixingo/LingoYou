@@ -10,8 +10,8 @@ function ProposalPage() {
         <>
             <Head />
             <PPLetter />
-            <DText />
-            <UniCards />
+            {/* <DText /> */}
+            {/* <UniCards /> */}
         </>
     );
 }
