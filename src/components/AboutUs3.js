@@ -1,31 +1,31 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Typography, Container } from "@mui/material";
 import React from "react";
 
-function DText() {
+function AboutUs3() {
     return (
         <>
             <Box
                 sx={{
-                    padding: "50px 0",
-                    textAlign: "center",
-                    background:
-                        "linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/img/st_img_1.jpg)",
-                    backgroundSize: "cover",
-                    backgroundPosition: "20%",
+                    height: "1750px",
+                    backgroundSize: "100%",
+                    backgroundRepeat: "no-repeat",
                 }}
             >
-                {" "}
-                <Typography
-                    variant="h3"
-                    sx={{
-                        color: "#2EA3F2",
-                        background: "#fff",
-                    }}
-                >
-                    CHI SIAMO
-                </Typography>
+                <img src="/img/aboutBack.png" alt="" width={"100%"} />
+                <br />
+                <br />
                 <br />
                 <Container>
+                    <Typography
+                        variant="h3"
+                        sx={{
+                            color: "#2EA3F2",
+                            background: "#fff",
+                        }}
+                    >
+                        CHI SIAMO
+                    </Typography>
+                    <br />
                     <Typography>
                         LingoYou è stata fondata per fornire traduzioni accurate
                         a prezzi convenienti a clienti da tutto il mondo. Fin
@@ -53,4 +53,4 @@ function DText() {
     );
 }
 
-export default DText;
+export default AboutUs3;
